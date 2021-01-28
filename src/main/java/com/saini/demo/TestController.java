@@ -15,7 +15,6 @@ public class TestController {
 	@GetMapping("/greet/{user}")
 	public String greetUser(@PathVariable("user") String user) {
 		return "Hello, how are you " + user;
-
 	}
 	
 }
