@@ -9,7 +9,7 @@ public class TestController {
 
 	@GetMapping("/")
 	public String about() {
-		return "A spring boot application created by Satish Saini";
+		return "A spring boot application created by Satish Kumar Saini";
 	}
 
 	@GetMapping("/greet/{user}")
