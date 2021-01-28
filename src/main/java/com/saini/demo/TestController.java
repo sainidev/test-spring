@@ -14,7 +14,7 @@ public class TestController {
 
 	@GetMapping("/greet/{user}")
 	public String greetUser(@PathVariable("user") String user) {
-		return "Hello, Greetings to You " + user.toUpperCase();
+		return "Hiiii, Greetings to You " + user.toUpperCase();
 	}
 	
 }
