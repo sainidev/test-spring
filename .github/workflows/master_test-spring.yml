@@ -30,3 +30,4 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b8ddd52bd6142eaa8641c6d05ef3e0b }}
         package: '${{ github.workspace }}/target/*.jar'
+        SSH: true
